@@ -1,0 +1,12 @@
+<!--<button (click)="handleAddProduct()">Adicionar produto</button>-->
+
+<form>
+  <input
+    type="text"
+    [(ngModel)]="product.name"
+    name="name"
+    placeholder="Nome do produto"
+  >
+
+  <button type="submit" (click)="handleAddProduct()">Adicionar produto</button>
+</form>

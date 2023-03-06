@@ -1,0 +1,31 @@
+.products {
+  @apply mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8;
+}
+
+.products_grid_container {
+  @apply grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8;
+}
+
+.product_image_container {
+  @apply w-full overflow-hidden rounded-md bg-gray-200 hover:opacity-75 h-80;
+
+  img {
+    @apply h-full w-full object-cover object-center;
+  }
+}
+
+.product_footer {
+  @apply mt-4 flex justify-between;
+
+  h3 {
+    @apply text-sm text-gray-700;
+  }
+
+  button {
+    @apply text-sm font-medium text-red-500 transition-colors duration-300 ease-in-out;
+
+    &:hover {
+      @apply text-red-700;
+    }
+  }
+}

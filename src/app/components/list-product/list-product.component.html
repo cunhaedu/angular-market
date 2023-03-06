@@ -1,0 +1,40 @@
+<div>
+<!--  <app-add-product (addProduct)="onAddProduct($event)"></app-add-product>-->
+
+  <div class="flex justify-end mr-16">
+    <mat-form-field appearance="fill">
+      <mat-label>Filtrar por tipo</mat-label>
+      <mat-select (selectionChange)="filterProductType($event.value)">
+        <mat-option>Nenhum</mat-option>
+        <mat-option
+          *ngFor="let productType of productTypes$ | async"
+          [value]="productType.id"
+        >
+          {{productType.description}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+
+  <div class="products">
+    <div *ngIf="products$ | async; else loading" class="products_grid_container">
+      <div *ngFor="let product of products$ | async">
+        <a routerLink="/list/{{product.id}}">
+          <div class="product_image_container">
+            <img src="{{product.image}}" alt="{{product.name}}">
+          </div>
+        </a>
+        <div class="product_footer">
+          <h3>{{product.name}}</h3>
+          <button (click)="openConfirmDeleteDialog(product)">
+            Remover
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <ng-template #loading>
+    <mat-spinner></mat-spinner>
+  </ng-template>
+</div>

@@ -1,0 +1,7 @@
+<div *ngIf="{product: product$ | async} as asyncData; else loading">
+  <h1>{{ asyncData.product?.name }}</h1>
+</div>
+
+<ng-template #loading>
+  <mat-spinner></mat-spinner>
+</ng-template>

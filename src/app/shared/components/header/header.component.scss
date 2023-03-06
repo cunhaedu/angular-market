@@ -1,0 +1,29 @@
+.header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+  img {
+    height: 70px;
+    margin-left: 4rem;
+  }
+
+  nav {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin-right: 4rem;
+
+    a {
+      color: #010101;
+      text-decoration: none;
+
+      &:hover {
+        color: #da251d;
+      }
+    }
+  }
+}

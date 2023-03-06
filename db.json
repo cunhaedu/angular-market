@@ -1,0 +1,153 @@
+{
+  "products": [
+    {
+      "id": "coconut",
+      "name": "Coco",
+      "image": "https://images.unsplash.com/photo-1581375321224-79da6fd32f6e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "type": {
+        "id": "68de0394-a522-4b27-a45f-ad10e59d3ce0",
+        "description": "Frutas"
+      }
+    },
+    {
+      "id": "guava",
+      "name": "Goiaba",
+      "image": "https://images.unsplash.com/photo-1536511132770-e5058c7e8c46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "type": {
+        "id": "68de0394-a522-4b27-a45f-ad10e59d3ce0",
+        "description": "Frutas"
+      }
+    },
+    {
+      "id": "yellow-lemon",
+      "name": "Limão Amarelo",
+      "image": "https://images.unsplash.com/photo-1579613832111-ac7dfcc7723f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "type": {
+        "id": "68de0394-a522-4b27-a45f-ad10e59d3ce0",
+        "description": "Frutas"
+      }
+    },
+    {
+      "id": "papaya",
+      "name": "Mamão",
+      "image": "https://images.unsplash.com/photo-1517282009859-f000ec3b26fe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      "type": {
+        "id": "68de0394-a522-4b27-a45f-ad10e59d3ce0",
+        "description": "Frutas"
+      }
+    },
+    {
+      "id": "peach",
+      "name": "Pêssego",
+      "image": "https://images.unsplash.com/photo-1602813812581-0713dae489da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=430&q=80",
+      "type": {
+        "id": "68de0394-a522-4b27-a45f-ad10e59d3ce0",
+        "description": "Frutas"
+      }
+    },
+    {
+      "id": "pineapple",
+      "name": "Abacaxi",
+      "image": "https://images.unsplash.com/photo-1587883012610-e3df17d41270?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      "type": {
+        "id": "68de0394-a522-4b27-a45f-ad10e59d3ce0",
+        "description": "Frutas"
+      }
+    },
+    {
+      "id": "watermelon",
+      "name": "Melancia",
+      "image": "https://images.unsplash.com/photo-1589984662646-e7b2e4962f18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "type": {
+        "id": "68de0394-a522-4b27-a45f-ad10e59d3ce0",
+        "description": "Frutas"
+      }
+    },
+    {
+      "id": "orange",
+      "name": "Laranja",
+      "image": "https://images.unsplash.com/photo-1599076480086-fd46f116eb8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      "type": {
+        "id": "68de0394-a522-4b27-a45f-ad10e59d3ce0",
+        "description": "Frutas"
+      }
+    },
+    {
+      "id": "kiwi",
+      "name": "Kiwi",
+      "image": "https://images.unsplash.com/photo-1571575173700-afb9492e6a50?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=436&q=80",
+      "type": {
+        "id": "68de0394-a522-4b27-a45f-ad10e59d3ce0",
+        "description": "Frutas"
+      }
+    },
+    {
+      "id": "lychee",
+      "name": "lichia",
+      "image": "https://images.unsplash.com/photo-1597975371270-cf80e4f54921?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "type": {
+        "id": "68de0394-a522-4b27-a45f-ad10e59d3ce0",
+        "description": "Frutas"
+      }
+    },
+    {
+      "id": "pomegranate-fruit",
+      "name": "Romã",
+      "image": "https://images.unsplash.com/photo-1580636521086-7b0c742dd567?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "type": {
+        "id": "68de0394-a522-4b27-a45f-ad10e59d3ce0",
+        "description": "Frutas"
+      }
+    },
+    {
+      "id": "blackberry",
+      "name": "Amora Silvestre",
+      "image": "https://images.unsplash.com/photo-1554795808-3231c32711cf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=436&q=80",
+      "type": {
+        "id": "68de0394-a522-4b27-a45f-ad10e59d3ce0",
+        "description": "Frutas"
+      }
+    },
+    {
+      "id": "raspberry",
+      "name": "Framboesa",
+      "image": "https://images.unsplash.com/photo-1577003833154-a92bbd63ae13?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "type": {
+        "id": "68de0394-a522-4b27-a45f-ad10e59d3ce0",
+        "description": "Frutas"
+      }
+    },
+    {
+      "id": "grape",
+      "name": "Uva",
+      "image": "https://images.unsplash.com/photo-1596363505729-4190a9506133?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      "type": {
+        "id": "e0fa878f-5b4c-4ee4-8aa3-a5a27e48c930",
+        "description": "Legumes"
+      }
+    },
+    {
+      "id": "pear",
+      "name": "Pera",
+      "image": "https://images.unsplash.com/photo-1543158181-7ecb8d8f3f81?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "type": {
+        "id": "1a2b6b0f-146d-4085-a444-167edb454cad",
+        "description": "Hortaliças"
+      }
+    }
+  ],
+  "product-types": [
+    {
+      "id": "68de0394-a522-4b27-a45f-ad10e59d3ce0",
+      "description": "Frutas"
+    },
+    {
+      "id": "e0fa878f-5b4c-4ee4-8aa3-a5a27e48c930",
+      "description": "Legumes"
+    },
+    {
+      "id": "1a2b6b0f-146d-4085-a444-167edb454cad",
+      "description": "Hortaliças"
+    }
+  ]
+}
